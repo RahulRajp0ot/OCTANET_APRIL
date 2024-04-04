@@ -1,0 +1,300 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+
+}
+.navbar{
+    height:55px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    /* display:flex;
+    align-items: center; */
+
+    height:50px;
+    width:100px;
+
+}
+.logo{
+    background-image: url("Logo1.jpg");
+    background-size: cover;
+    height:49px;
+    width:150px;
+   
+
+}
+/* .nav-logo{
+    height:40px;
+    width: 100px;
+} */
+/* .border{
+    border:1px solid transparent;
+} */
+.border:hover{
+    border:0.5px solid white;
+}
+.add-icon{
+    display:flex;
+    position: relative;
+    right:15px;
+}
+.nav-address{
+    margin-left: 60px;
+}
+.a98{
+    font-size:0.80rem;
+    color: #cccccc;
+
+}
+.a97{
+    margin-left: 3px;
+}
+/* Box3 */
+.nav-search{
+
+    display: flex;
+    height :40px;
+    width: 50%;
+}
+.nav-search:hover{
+    border:2px solid orange ;
+}
+.a96{
+    background-color: #F3F3F3;
+    text-align: center;
+    width: 8%;
+
+    /* margin-left: 5%; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+   
+
+}
+.a95{
+    width: 84%;
+    
+}
+.a94{
+    display: flex;
+    background-color:#febd68;
+    width: 8%;
+   justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+    color:#0f1111
+}
+
+
+.a93{
+    font-size: 0.8rem;
+}
+.a92{
+    font-weight: 700;
+}
+.nav-cart {
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 700;
+    
+}
+.nav-cart i{
+    font-size: 22px;
+}
+.a90{
+    margin-top: 6px;
+}
+
+
+
+/* 2nd part */
+
+.panel{
+   height: 39px;
+   background-color: #222f3d;
+   color: white;
+   display: flex;
+    align-items: center;  /* vertically allined center */
+    justify-content: space-evenly;
+}
+.a88 p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.a88 p:hover{
+border:0.5px solid white;}
+
+.a88{
+    width:75%;
+    font-size: 0.85rem;
+}
+.a87{
+    font-size:0.9rem ;
+    font-weight: 750;
+}
+.Mimage{
+    background-image: url(main.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: center; /**used for vertically centring its div content only used with flex**/
+    justify-content: center;/**used for horizontal centring its div containt only used with flex**/
+
+}
+.b99{
+    background-color: #F3F3F3;
+    width:95%;
+    height: 35px;
+    display: flex;
+    align-items: center; /**used for vertically centring its  div content only used with flex**/
+    justify-content: center;/**used for horizontal centring in div content only used with flex**/
+    font-size: 0.89rem;
+    border-radius: 20px;    
+}
+.b99 a{
+    color: #007185;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/* Containt */
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: plum;
+    height: 340px;
+
+}
+.cc{
+    /* display: flex;
+    justify-content: space-evenly;
+    background-color: plum; */
+    border: 2px solid black;
+    height: 280px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    
+}
+.d99{
+    background-image: url("Destop.jpg");
+    background-size:cover;
+    margin-left: 15%;
+    height: 180px;
+    width: 70%;
+
+}
+.d98{
+    background-image: url("Basket.jpg");
+    background-size: cover;
+    margin-left: 10%;
+    height:170px;
+    width: 80%;
+}
+.d97{
+    background-image: url("stand.jpg");
+    background-size: Cover;
+    height: 170px;
+    margin-left: 25%;
+    width: 50%;
+}
+.cc A{
+    text-decoration: None;
+    color: brown;
+}
+.c91 h3{
+    text-align: left;
+    margin-left: 10%; 
+    margin-top: 10px;   
+}
+
+.e99{
+    background-image: url("Box.jpg");
+    background-size:cover;
+    margin-left: 15%;
+    height: 175px;
+    width: 70%;
+}
+.e98{
+    background-image: url("watch.jpg");
+    background-size:cover;
+    margin-left: 15%;
+    height: 200px;
+    width: 70%;
+
+}
+.e97{
+    background-image: url("laptop.jpg");
+    background-size:cover;
+    margin-left: 15%;
+    height: 200px;
+    width: 70%;
+
+}
+.dd{
+    /* display: flex;
+    justify-content: space-evenly;
+    background-color: plum; */
+    margin-top: 20Px;
+    border: 2px solid black;
+    height: 280px;
+    width: 350px;
+    background-color: white;
+    text-align: center;}
+
+    .dd A{
+        text-decoration: None;
+        color: brown;}
+
+footer{
+   
+   
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    height:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel1 A{
+    text-decoration: none;
+    color:white;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: #F3F3F3;
+    height:300px;
+    display: flex;
+   justify-content: space-evenly;
+
+}
+ul{
+    margin-top:40px;
+}
+ul a{
+    margin-top: 18px;
+display: block;
+font-size: 0.85rem;
+color: #DDDDDD;
+
+}
+.zzz{
+    background-color: #222f3d;
+    color: #F3F3F3;
+    text-align: center;
+    
+
+}
+
